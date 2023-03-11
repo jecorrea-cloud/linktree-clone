@@ -95,3 +95,15 @@ a {
 .image-container img {
     height: 100%;
 }
+
+.icon {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+i[class='fa-sharp fa-regular fa-cauldron'] {
+    margin: 4px 8px;
+    width: 44px;
+    height: 44px;
+}
