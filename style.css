@@ -52,6 +52,11 @@ body {
     border-radius: 17px;
 }
 
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.2s;
+    transform: scale(1.02);
+}
+
 header{
     width: 95%;
     max-width: 788px;
