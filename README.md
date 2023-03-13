@@ -1,2 +1,3 @@
 # linktree-clone
-Clone of Linktree for Char
+
+Custom clone of Linktree for Char.
