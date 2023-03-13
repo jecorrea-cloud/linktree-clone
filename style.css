@@ -95,6 +95,26 @@ a {
     margin-top: 10px;
 }
 
+a#tile {
+    animation-name: shake-with-delay;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake-with-delay{
+    from, 16%, to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+    1.6%, 4.8%, 8%, 11.2%, 14.4% {
+        -webkit-transform: translate3d(-10px, 0, 0);
+        transform: translate3d(-10px, 0, 0);
+    }
+    3.2%, 6.4%, 9.6%, 12.8% {
+        -webkit-transform: translate3d(10px, 0, 0);
+        transform: translate3d(10px, 0, 0);
+    }
+}
 
 .image-container {
     height: 96px;
