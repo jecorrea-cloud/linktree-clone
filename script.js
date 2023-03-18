@@ -1,4 +1,5 @@
 const shareButtons = document.querySelectorAll(".tile-share-button");
+const sharePage = document.querySelectorAll(".share-button");
 //console.log(shareButtons)
 
 //Function to make the buttons copy the link as text
@@ -17,3 +18,5 @@ async function copyText(e) {
 shareButtons.forEach((shareButton) =>
   shareButton.addEventListener("click", copyText)
 );
+
+sharePage.forEach((page) => page.addEventListener(copyText));
